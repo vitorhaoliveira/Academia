@@ -1,0 +1,70 @@
+.plans-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 10rem;
+   gap: 1rem;
+}
+
+.plans-tittle {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.plans-tittle h2 {
+   font-size: 2rem;
+}
+
+.content-box {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   gap: 10rem;
+}
+
+.content-box h3 {
+   font-size: 1.5rem;
+   margin: 0;
+}
+
+.content-box-plans {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+   width: 30%;
+}
+
+.content-box-info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.plans-info-content {
+   display: flex;
+   gap: 2rem;
+   flex-direction: column;
+
+}
+
+.plans-info {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: .5rem;
+   height: 30px;
+}
+
+.plans-info img {
+   width: 20px;
+   height: 20px;
+}
+
+.content-box h5 {
+   font-size: 3rem;
+   margin: 0;
+}

@@ -1,0 +1,26 @@
+.about-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 5rem 0;
+   gap: 8rem;
+}
+
+.about-content div {
+   width: 30%;
+}
+
+.about-content p {
+   color: black;
+   font-weight: 500;
+}
+
+.about-content h2 {
+   font-size: 2rem;
+}
+
+.about-content img {
+   width: 30rem;
+   border-radius: 10px;
+   box-shadow: var(--sombra);
+}

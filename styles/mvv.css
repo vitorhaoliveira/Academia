@@ -1,0 +1,35 @@
+.mvv-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10rem;
+   gap: 7rem;
+}
+
+.mvv-content p{ 
+   color: black;
+   font-weight: 500;
+}
+
+.mvv-content div {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: column;
+   box-shadow: var(--sombra);
+   width: 10rem;
+   height: 70vh;
+   border: 1px solid var(--branco);
+   padding: 1rem 3rem ;
+   border-radius: 15px;
+   transition: border 0.2s, transform 0.5s;
+}
+
+.mvv-content div:hover {
+   border: 1px solid var(--azul);
+   transition: 0.2;
+}
+
+.mvv-content h2 {
+   font-size: 2rem;
+}

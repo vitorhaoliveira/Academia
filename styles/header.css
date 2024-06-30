@@ -1,0 +1,44 @@
+header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 3rem;
+}
+
+header .box1 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: .7rem;
+}
+
+header .box2 {
+   display: flex;
+   flex-direction: row;
+   gap: 3.5rem;
+}
+
+.box-link {
+   display: flex;
+   align-items: center;
+}
+
+header a {
+   margin: 0 .8rem;
+   text-decoration: none;
+   color: black;
+   font-weight: 500;
+}
+
+header .box-login .perfil {
+   width: 50px;
+   height: 50px;
+   
+}
+
+.box-login a:hover {
+   color: var(--azul-hover);
+   transition: 0.2;
+}
+
